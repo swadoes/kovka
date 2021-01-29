@@ -1,0 +1,36 @@
+.main__section h1 {
+  color: #fff;
+  font-size: 27px;
+  line-height: 60px;
+}
+.main__section {
+  height:700px;
+  padding: 100px;
+  color: #fff;
+}
+.main__section p {
+  font-size: 20px;
+  max-width: 1000px;
+  color: rgb(226, 141, 72) !important;
+}
+.main__section h2,
+h3 {
+  color: #fff;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.own {
+  float: right;
+  height: 600px;
+  margin-bottom: 100px;
+  max-width: 500px;
+  background: cover;
+}
+
+
+@media only screen and (max-width: 1000px){
+  .own {
+    display: none;
+  }
+}
